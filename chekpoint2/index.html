@@ -1,0 +1,99 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#work">Travaux</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About</h2>
+        <!--image-->
+        <h3>Image</h3>
+        <p> protégeons les baleine.</p>
+        <img src="baleine.jpeg" width="300px" height="200px" alt="Votre photo">
+        <!--vidéo-->
+        <h3>Vidéo</h3>
+        <video controls>
+            <source src="baleine bleue.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="travail">
+        <h2>Work</h2>
+        <h3>Expérience professionnelle</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Numéro</th>
+              <th>Nom</th>
+              <th>Prénom</th>
+              <th>Lieu</th>
+              <th>Missions</th>
+              <th>Compétences</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>KABORE</td>
+              <td>Priscille</td>
+              <td>Dakar,Sénégal</td>
+              <td>Récoltes de données</td>
+              <td>Capacités d'adaptation, esprit d'équipe...</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>HEIN</td>
+                <td>Armel</td>
+                <td>Bobo, Burkina Faso</td>
+                <td>Expertise judiciaire</td>
+                <td>Créativité</td>
+            </tr>
+            </tbody>
+        </table>
+      </section>
+
+    <section id="cv">
+        <h2>CV</h2>
+        <embed src="mon-cv.pdf.pdf" type="application/pdf" width="800px" height="300px">
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <br/> <br/>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <br/> <br/>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <br/>  <br/>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; BANSE Stéphanie - Tous droits réservés</p>
+        <ul>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Politique de confidentialité</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
