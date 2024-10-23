@@ -1,0 +1,87 @@
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav li {
+    list-style: none;
+    float: left;
+}
+nav a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 20px 30px;
+      color: #fff;
+}
+.nav-acceuil:hover {
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(000, 77, 38, 0.5);
+}
+.nav-about:hover{
+     border: 5px solid #0070bb;
+     background-color: RGBa(000, 112, 192, 0.5);
+}
+.nav-work:hover{
+    border: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 78, 0.5);
+}
+.nav-cv:hover{
+    border: 5px solid #BBB;
+    background-color: RGBa(220, 220, 220, 0.5);
+}
+.nav-contact:hover{
+     border: 5px solid #e44d26;
+     background-color: RGBa(000, 112, 192, 0.5);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.table-style {
+    border-collapse: collapse;
+    min-height: 400px;
+    width: auto;
+    box-shadow: 0px 50px RGBa(0,0,0,0.5);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 1px solid #ddd;
+}
+thead tr {
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+}
+th, td {
+    padding: 15px 20px;
+}
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+.about-html {
+    background-color: red;
+    color: #fff;
+    text-align: left;
+}
+.work-html {
+    background-color: red;
+    color: #fff;
+    text-align: left;  
+}
+.CV-html {
+    background-color: red;
+    color: #fff;
+    text-align: left; 
+}
+.contact-html {
+    background-color: red;
+    color: #fff;
+    text-align: left; 
+}
